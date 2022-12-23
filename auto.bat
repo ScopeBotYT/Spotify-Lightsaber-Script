@@ -1,0 +1,1 @@
+wscript "program.vbs"
