@@ -1,1 +1,1 @@
-START /MIN CMD.EXE /C auto.bat
+START /MIN CMD.EXE /C program.vbs
