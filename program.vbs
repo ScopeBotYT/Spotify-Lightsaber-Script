@@ -1,7 +1,7 @@
-Set oShell = CreateObject("WScript.Shell")
-Dim User
-User = "User"
-oShell.Run("""C:\Users\" & User &"\AppData\Roaming\Spotify\Spotify.exe""")
+Dim objShell
+Set objShell = WScript.CreateObject( "WScript.Shell" )
+strName = objShell.ExpandEnvironmentStrings("%USERNAME%")
+objShell.Run("""C:\Users\" & strName & "\AppData\Roaming\Spotify\Spotify.exe""")
 WScript.Sleep 3000
 oShell.SendKeys "+"
 oShell.SendKeys "+t"
