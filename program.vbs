@@ -4,6 +4,7 @@ strName = objShell.ExpandEnvironmentStrings("%USERNAME%")
 objShell.Run("""C:\Users\" & strName & "\AppData\Roaming\Spotify\Spotify.exe""")
 Set oShell = CreateObject("WScript.Shell")
 Result = oShell.AppActivate("Spotify Premium")
+Result = oShell.AppActivate("Spotify")
 WScript.Sleep 3000
 oShell.SendKeys "+"
 WScript.Sleep 10
