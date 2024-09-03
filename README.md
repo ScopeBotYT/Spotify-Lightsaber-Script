@@ -14,3 +14,8 @@ Rechtsklick auf "background.bat", "Senden an, Desktop".
 Auf dem Desktop die Verknüpfung nach z.B. Spotify umbenennen.
 Rechtsklick auf die Datei, "Eigenschaften", unter "Verknüpfung" auf "Anderes Symbol...".
 "Durchsuchen..." und die "spotify.ico" aus dem Ordner auswählen.
+
+
+Spotify locations:
+\AppData\Local\Microsoft\WindowsApps\Spotify.exe
+\AppData\Roaming\Spotify\Spotify.exe
